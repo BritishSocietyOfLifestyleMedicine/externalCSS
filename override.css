@@ -1,0 +1,1776 @@
+html{
+	scroll-behavior: smooth;
+}
+
+.fontreg li {
+	font-size: 1.15rem !important;
+}
+
+.text {
+	font-size: 1.1875rem;
+}
+
+.text li {
+	font-size: 1.1875rem !important;
+}
+
+ol.text li {
+	margin-bottom: 15px;
+}
+
+.largetext {
+	font-size: 1.375rem;
+	font-weight: 500;
+}
+
+.weight500 {
+	font-weight: 500;
+}
+
+.fontsmall {
+	font-size: 1rem !important;
+}
+
+.fontsmall p {
+	font-size: 1rem;
+}
+
+.bluelinks a {
+	color: #4e64da;
+	text-decoration: none !important;
+	font-weight: 500 !important;
+}
+
+.bluelink {
+	color: #4e64da;
+	text-decoration: none !important;
+	font-weight: 500 !important;
+}
+
+.hover_highlight a div:hover {
+	background-image: linear-gradient(to right, rgba(225, 222, 252, 0.05), rgba(225, 222, 252, 1), rgba(225, 222, 252, 0.05));
+}
+
+.hoverHighlightLinks a:hover {
+	background-image: linear-gradient(to right, rgba(225, 222, 252, 0.05), rgba(225, 222, 252, 1), rgba(225, 222, 252, 0.05));
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid #e3e3e3;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+	margin: 30px auto 30px auto;
+	display: block;
+	max-width: 75%;
+}
+
+.hrtitle {
+	margin: 10px auto 30px auto;
+}
+
+.hrthin {
+	margin: 10px auto 10px auto;
+}
+
+.centerel {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.centerele {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.borderlight {
+	border: 1px solid #e3e3e3;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+	padding: 30px 70px;
+	border-radius: 6px;
+	margin-bottom: 30px;
+}
+
+@media screen and (max-width: 991px) {
+	.borderlight {
+		padding: 30px 20px;
+	}
+}
+
+.borderlighte {
+	border: 1px solid #e3e3e3;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+	padding: 30px 5vw;
+	border-radius: 6px;
+	margin-bottom: 30px;
+}
+
+.textContainerReplacement {
+	max-width: 900px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.containerReplacement {
+	max-width: 1100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.containerWidth {
+	max-width: 1330px;
+}
+
+.fatbtn {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 80%;
+}
+
+.bluetitle {
+	color: #52c7e7;
+}
+
+.blueText {
+	color: #52c7e7;
+}
+
+.orangeText {
+	color: #f7b71e;
+}
+
+.mtopspace {
+	margin-top: 40px;
+}
+
+.mtopspacee {
+	margin-top: 3.5rem;
+}
+
+.valignCenter {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.borderleft {
+	border-left: 2px solid #c9c9c9;
+	padding-left: 10px;
+	max-width: 100%;
+}
+
+.bordertop {
+	border-top: 2px solid #c9c9c9;
+}
+
+.highlight {
+	padding: 5px;
+	transition: padding 0.3s;
+}
+
+.highlight a {
+	text-decoration: none;
+}
+
+.highlight:hover {
+	padding: 0;
+	transition: padding 0.3s;
+}
+
+.highlight a:hover {
+	color: #4e64da;
+}
+
+.textJustify {
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.col-centered {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+}
+
+.col-left {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: flex-start;
+}
+
+.col-right {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: flex-end;
+}
+
+.flexrow {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.flexJustifyCenter {
+	justify-content: center;
+}
+
+.introPicture {
+	float: left;
+	width: 30%;
+	margin: 40px 25px 15px 0;
+}
+
+.references sub {
+	color: #4e64da;
+	cursor: pointer;
+	font-weight: 600;
+}
+
+.ref {
+	color: #4e64da;
+	cursor: pointer;
+	font-weight: 600;
+}
+
+.link {
+	color: #4e64da;
+	cursor: pointer;
+}
+
+.interviewTable .question{
+	min-width: 30%;
+}
+
+.interviewTable .question{
+	min-width: 30%;
+	border-right: 1px black solid;
+}
+
+.interviewTable tr {
+	border-bottom: 1px black solid;
+}
+
+.interviewTable td {
+	padding: 15px;
+}
+
+.interviewTable .bottomRow {
+	border: none;
+}
+
+.newLine5050 {
+	margin-top: 20px;
+}
+
+.btn {
+	color: black !important;
+}
+
+
+
+/* ------------------------------------SPEAKER CARDS-------------------------------- */
+
+.profileCardsGroup {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	width: 100%;
+}
+
+
+.profileCard {
+	display: flex;
+	flex-flow: row nowrap;
+	box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.2);
+	transition: margin 0.1s;
+	transition: box-shadow 0.1s;
+	/* width: 48%; */
+	cursor: pointer;
+	margin: 1% 1% 30px 1%;
+}
+
+.profileCard img {
+	object-fit: cover;
+}
+
+.profileCard img.containImg {
+	object-fit: contain;
+}
+
+.profileCard:hover {
+	box-shadow: 1px 9px 13px 1px rgba(0, 0, 0, 0.2);
+	margin: 0.75% 0.75% 30px 0.75%;
+}
+
+@media screen and (max-width: 991px) {
+	.profileCard {
+		margin: 2% 0 2% 0;
+	}
+
+	.profileCard:hover {
+		margin: 2% 0 2% 0;
+	}
+}
+
+.profileCardContent {
+	display: flex;
+	flex-flow: column nowrap;
+	padding: 0 15px 5px 15px;
+}
+
+.profileCardName {
+	font-weight: 700 !important;
+	font-size: 1.2rem;
+	padding: 5px 0 0 0;
+}
+
+.profileCardBio {
+	position: relative;
+	overflow: hidden;
+	font-size: 1rem;
+}
+
+@media screen and (max-width: 390px) {
+	.profileCardBio {
+		display: none;
+	}
+}
+
+.profileCardFade {
+	position: absolute;
+	background: linear-gradient(transparent, white 90%);
+	width: 100%;
+	height: 75%;
+	bottom: 0;
+}
+
+/* ------------------------------------SPEAKER CARDS OLD-------------------------------- */
+
+.speakerProfiles img {
+	width: 40%;
+	height: auto;
+	float: left;
+	margin-right: 20px;
+}
+
+.speakerProfiles a {
+	text-decoration: none !important;
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+
+.speakerProfiles .col-lg-6 {
+	/* 	padding-left: 5%; */
+	margin: 20px 0;
+	display: flex;
+}
+
+.speakerCard {
+	height: auto;
+	width: 100%;
+	box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.2);
+	padding-right: 2%;
+	transition: margin 0.1s;
+	transition: box-shadow 0.1s;
+	overflow: hidden;
+	background-color: white;
+	margin-bottom: 5px;
+}
+
+.speakerCard:hover {
+	box-shadow: 1px 9px 13px 1px rgba(0, 0, 0, 0.2);
+	margin: -2px;
+}
+
+.speakerCard .profileCardInfo {
+	overflow: hidden;
+}
+
+.speakerCard .profileCardInfo p {
+	font-size: 1rem;
+}
+
+.titledSpeakerCard .titleLabel {
+	margin-top: 10px;
+}
+
+.speakerTitle {
+	font-weight: 500 !important;
+}
+
+.titledSpeakerCard .speakerName {
+	font-weight: 600 !important;
+}
+
+.speakerCard .fade {
+	position: absolute;
+	background: linear-gradient(transparent 50%, white);
+}
+
+.speakerText .speakerName {
+	font-size: 1.2rem;
+}
+
+.titledSpeakerCard .speakerName {
+	font-weight: 600;
+}
+
+.speakerCard .speakerText {
+	margin-top: 10px;
+}
+
+
+@media screen and (max-width: 475px) {
+	.speakerCard .profileCardInfo {
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 1359px) {
+	.borderlight {
+		padding: 30px 20px;
+	}
+
+}
+
+.speakerCard br {
+	display: none;
+}
+
+.speakerCard p {
+	margin: 0;
+}
+
+/* ---------------------------------------RESOURCE CARDS------------------------------- */
+
+/* HOME, LEARNING ACADEMY, JOIN, MEMBER RESOURCES, DIPLOMA RESOURCES, WHAT IS LM? */
+
+.resourceCarde {
+	width: 100%;
+	margin: 0 1% 5% 1%;
+	box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.2);
+	text-align: center;
+	background-color: white;
+	margin-bottom: 30px;
+}
+
+.resourceCarde .resourceCardTitle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 5px;
+	color: #52c7e7;
+	font-weight: 800;
+	font-size: 23px;
+}
+
+.resourceCarde .resourceCardText {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	padding: 18px;
+	font-size: 15px;
+}
+
+.resourceCarde .resourceCardText .rCardTextTitle {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.resourceCarde img {
+	height: 65%;
+	width: 100%;
+	overflow: hidden;
+	object-fit: cover;
+}
+
+.resourceCarde img.contain {
+	width: auto;
+	overflow: hidden;
+	object-fit: contain;
+	margin-top: 20px;
+}
+
+.resourceCarde.hover {
+	cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+	.resourceCarde.hover:hover {
+		box-shadow: 1px 9px 13px 1px rgba(0, 0, 0, 0.2);
+		margin: 0.75%;
+	}
+}
+
+
+.resourceCard {
+	width: 100%;
+	margin: 0 1% 5% 1%;
+	box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.2);
+	overflow: hidden;
+	/* 	max-width:80vw; */
+}
+
+.resourceCard .resourceImg {
+	height: 45%;
+	width: 100%;
+	overflow: hidden;
+}
+
+.resourceCard img {
+	min-height: 100%;
+	width: 100%;
+}
+
+.resourceCard p {
+	margin: 0;
+}
+
+.resourceCard a {
+	text-decoration: none !important;
+}
+
+.resourceCard .cardBody {
+	margin: 10px;
+}
+
+.resourceCard .cardTitle {
+	/* 	font-size:1.8rem;  */
+	font-weight: 800;
+	margin: 0 15px 10px 15px;
+}
+
+.resourceCard .cardText {
+	margin: 0 15px 0 15px;
+}
+
+@media screen and (min-width: 768px) {
+	.resourceCard:hover {
+		box-shadow: 1px 9px 13px 1px rgba(0, 0, 0, 0.2);
+		margin: -1px;
+	}
+}
+
+/* ------------------------------------VIDEO CARD-------------------------------- */
+
+.videoCard iframe {
+	width: 100%;
+	height: 230px !important;
+}
+
+.videoCard p {
+	margin: 0;
+	font-size: 1.1875rem;
+}
+
+.videoCard {
+	height: 400px;
+	box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.2);
+	margin-bottom: 30px;
+	overflow-y: hidden;
+}
+
+.videoCard .videoCardContent {
+	padding: 10px 20px;
+	background-color: #f6f6f6;
+	height: 100%;
+	margin-top: -4px;
+}
+
+.videoCard .videoCardTitle {
+	font-weight: 600;
+	font-size: 1.4rem;
+}
+
+/* ------------------------------------LIGHT BOX-------------------------------- */
+
+
+.lightbox-disclaimer {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+
+.lightbox-pictureWrapper {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.lightbox-pictureWrapper img {
+	width: 30%;
+	padding: 3px;
+	transition: padding 0.3s;
+	cursor: pointer;
+	object-fit: cover;
+}
+
+.lightbox-pictureWrapper img:hover {
+	padding: 0;
+}
+
+@media screen and (max-width: 770px) {
+	.lightbox-pictureWrapper img {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.lightbox-pictureWrapper img {
+		width: 100%;
+		transition: none;
+	}
+
+	.lightbox-pictureWrapper img:hover {
+		padding: 3px;
+	}
+}
+
+#lightbox-overlay {
+	display: none;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background-color: black;
+	background-color: rgba(0, 0, 0, 0.9);
+	top: 0;
+	left: 0;
+	z-index: 11;
+}
+
+.lightbox-closebtn {
+	display: flex;
+	justify-content: flex-end;
+	height: 8vh;
+	width: 95%;
+}
+
+.lightbox-closeIcon {
+	height: 30px;
+}
+
+.lightbox-pictureArea {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+}
+
+#lightbox-image {
+	max-width: 70%;
+	max-height: 95vh;
+	object-fit: contain;
+}
+
+#lightbox-iframe {
+	height: 100vh;
+	width: 60vw;
+}
+
+@media screen and (max-width: 1000px) {
+	#lightbox-image {
+		width: 80%;
+	}
+}
+
+.lightbox-nextBtn, .lightbox-prevBtn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 70vh;
+	width: 10%;
+}
+
+.lightbox-chevron {
+	height: 130px;
+	padding: 20px;
+}
+
+.lightbox-propStop {
+	width: 85%;
+}
+
+
+/* -----------------------------------LM PILLAR GRAPHIC-------------------------------- */
+/* Home, Whats is LM */
+
+#lmPillars .pillarImg1 {
+	height: 200px;
+	width: auto;
+}
+
+.lmPillarImgContain .pillarImg2 {
+	width: auto;
+	height: 100%;
+	object-fit: cover;
+	min-width: 100%;
+}
+
+#lmPillars .pillarImg3 {
+	height: 80px;
+	width: auto;
+	margin: 10px 0;
+}
+
+.lmPillar {
+	border: 1px solid #e3e3e3;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+	border-radius: 15px 50px;
+	overflow: hidden;
+	height: 362px;
+	margin-bottom: 30px;
+}
+
+.lmPillarImgContain {
+	height: 200px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.lmPillarGroup {
+	padding: 0 20px 0 10px;
+}
+
+@media screen and (max-width: 1199px) {
+	.lmPillar {
+		height: 440px;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.lmPillar {
+		height: 330px;
+	}
+}
+
+@media screen and (max-width: 415px) {
+	.lmPillar {
+		height: 350px;
+	}
+}
+
+@media screen and (max-width: 325px) {
+	.lmPillar {
+		height: 385px;
+	}
+}
+
+
+.lmPillarbackground {
+	width: 100%;
+	height: 100%;
+	background-color: #f5fdff;
+	font-weight: 600;
+	font-size: 20px;
+	padding: 20px 10px;
+}
+
+/* -----------------------------------ACCORDION-------------------------------- */
+
+.accordionWrapper {
+	width: 100%;
+    margin: auto;
+	margin-top: 50px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.accordionColumn {
+	width: 45%;
+	margin-right: 10px; 
+}
+
+@media screen and (max-width: 768px) {
+	.accordionColumn {
+		width: 90%;
+	}
+}
+
+.accordionItem {
+	width: 100%;
+    display: flex;
+	flex-flow: column nowrap;
+    margin: 0 10px 8px 0;
+}
+
+.accordionTitle {
+	height: 45px;
+	box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.2);
+	display: flex;
+    cursor: pointer;
+	flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.1s;
+	color: #52c7e7;
+	font-weight: 600;
+	font-size: 1.375rem;	
+}
+
+.accordionTitle:hover {
+	background-color: #f2f2f2;
+	box-shadow: 1px 9px 13px 1px rgba(0, 0, 0, 0.2);
+	margin-left: -2px;
+}
+
+.accordionBodyWrapper {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s;
+    display: flex;
+    flex-flow: column nowrap;
+	box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+.accordionBody {
+    background-color: #fcfcfc;
+    /* border-radius: 0 0 5px 5px; */
+}
+
+/* -----------------------------------LARGE TABLE-------------------------------- */
+
+table.largeTable {
+	/* max-width: 80%; */
+	margin: auto;
+}
+
+.largeTable tr {
+	text-align: center;
+	height: 35px;
+	/* border-top: 1px solid #e3e3e3;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.05); */
+}
+
+.largeTable .tableHeadings th {
+	font-weight: 600;
+}
+
+.largeTable th {
+	font-weight: 500;
+	padding: 3px;
+}
+
+.largeTable .tableHeadings {
+	border: none;
+}
+
+/* -----------------------------------ORGANISATION PROFILES-------------------------------- */
+
+.orgProfile img {
+	margin: 30px 0;
+}
+
+
+/* ------------------------------------VGC PAGE-------------------------------- */
+
+.listContrast {
+    background-image: linear-gradient(to right, rgba(237, 237, 237, 0.3), rgba(237, 237, 237, 1), rgba(237, 237, 237, 0.3));
+}
+
+.vgcWebinar {
+    display: flex;
+    flex-flow: row nowrap;
+    cursor: pointer;
+    color: #4e64da;
+}
+
+.page-id-1274 .widget-text{
+	max-width: 85%;
+}
+
+@media screen and (max-width: 768px) {
+	.page-id-1274 .widget-text{
+		max-width: 100%;
+	}
+}
+
+.vgcWebinar:hover {
+    background-image: linear-gradient(to right, rgba(225, 222, 252, 0.05), rgba(225, 222, 252, 1), rgba(225, 222, 252, 0.05));
+}
+
+.vgcWebinar div{
+    padding: 10px 8px 10px 8px;
+    width: 50%;
+}
+
+.vgcWebinarTitle {
+    border-right: 1px solid #e3e3e3;
+	align-items: right;
+	font-weight: 600;
+    text-align: right;
+}
+
+.emptyVgcWebinarText {
+	text-align: center;
+	color: #4e64da;
+	font-weight: 600;
+	margin: 6px 0 6px 0;
+}
+
+
+/* ------------------------------------EVIDENCE PAGE-------------------------------- */
+
+.link_size a div {
+	font-size: 1rem;
+}
+
+/* ------------------------------------ ALT EVIDENCE PAGE-------------------------------- */
+
+.link_size a div {
+	font-size: 1rem;
+}
+
+.page-id-3005 .smallicon {
+	width: 110px;
+}
+
+.page-id-3005 .highlighticon {
+	border: 1.5px solid #60C5FC;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+	border-radius: 20px;
+	padding: 5px 0 5px 0;
+}
+
+/* ------------------------------------KERNOW EVENT-------------------------------- */
+
+.kernow_list_size li {
+	font-size: 1rem;
+}
+
+/* ------------------------------------VGC RESOURCES PAGE-------------------------------- */
+
+.page-id-1944 .widget-text {
+	max-width: 100%;
+}
+
+.page-id-1944 .videoborder {
+	border: 1px solid #e3e3e3;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+	padding: 20px 20px;
+	border-radius: 6px;
+	margin-bottom: 30px;
+}
+
+.page-id-1944 iframe {
+	width: 100%;
+	height: 15rem;
+}
+
+.page-id-1944 iframe .player {
+	max-width: 100%;
+}
+
+
+/* ------------------------------------HOME PAGE-------------------------------- */
+
+.page-id-5 .widget-text {
+	max-width: 85%;
+}
+
+/* ------------------------------------COPEWELL-19 PAGE-------------------------------- */
+.page-id-2040 .widget-text {
+	max-width: 100%;
+}
+
+.page-id-2040 .videosegments {
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.page-id-2040 .resourceLinks {
+	font-size: 1rem;
+	max-width: 70%;
+}
+
+@media screen and (max-width: 991px) {
+	.page-id-2040 .textspace {
+		margin-top: 30px;
+	}
+}
+
+/* ------------------------------------3RD CONFERENCE PAGE-------------------------------- */
+
+.page-id-2037 .profileimg {
+	max-height: 38vh;
+	width: auto;
+}
+
+/* ------------------------------------2020 CONFERENCE EVENT-------------------------------- */
+
+.postid-702 .profilehr {
+	margin: 10px auto 10px auto;
+}
+
+
+/* ------------------------------------2021 CONFERENCE RESOURCES-------------------------------- */
+
+.page-id-8173 .widget-text {
+	max-width: 80%;
+}
+
+.page-id-8173 .vimIframeResponsive {
+	width: 32vw;
+	height: 20vw;
+	max-width: 100%;
+	max-height: 20rem;
+}
+
+.page-id-8173 .videoDescription {
+	height: 300px;
+	transition: height 0.5s;
+	overflow-y: hidden;
+	cursor: pointer;
+}
+
+.page-id-8173 .videoDescription .fontsmall {
+	margin-bottom: 20px;
+}
+
+.page-id-8173 .videoDescription p {
+	margin-bottom: 5px;
+}
+
+
+.page-id-8173 .fade {
+	position: absolute;
+	background: linear-gradient(transparent, white 90%);
+	width: 95%;
+	height: 60%;
+	bottom: 0;
+}
+
+@media screen and (max-width: 991px) {
+	.page-id-8173 .vimIframeResponsive {
+		width: 100%;
+		height: 40vw;
+	}
+}
+
+/* ------------------------------------2020 CONFERENCE RESOURCES-------------------------------- */
+
+.page-id-2678 .widget-text {
+	max-width: 100%;
+}
+
+.page-id-2678 .vimIframeResponsive {
+	width: 32vw;
+	height: 20vw;
+	max-width: 100%;
+	max-height: 20rem;
+}
+
+@media screen and (max-width: 991px) {
+	.page-id-2678 .vimIframeResponsive {
+		width: 100%;
+		height: 40vw;
+	}
+}
+
+/* ------------------------------------2019 CONFERENCE RESOURCES-------------------------------- */
+
+.page-id-2762 .widget-text {
+	max-width: 100%;
+}
+
+.page-id-2762 .vimIframeResponsive {
+	width: 32vw;
+	height: 18vw;
+	max-width: 100%;
+	max-height: 16rem;
+}
+
+@media screen and (max-width: 991px) {
+	.page-id-2762 .vimIframeResponsive {
+		width: 100%;
+		height: 40vw;
+	}
+}
+
+/* ------------------------------------2018 CONFERENCE RESOURCES-------------------------------- */
+
+.page-id-5860 .widget-text {
+	max-width: 100%;
+}
+
+.page-id-5860 .vimIframeResponsive {
+	width: 32vw;
+	height: 20vw;
+	max-width: 100%;
+	max-height: 20rem;
+}
+
+@media screen and (max-width: 991px) {
+	.page-id-5860 .vimIframeResponsive {
+		width: 100%;
+		height: 40vw;
+	}
+}
+
+/* ------------------------------------3RD KERNOW CONFERENCE-------------------------------- */
+
+.page-id-3307 .widget-text {
+	max-width: 100%;
+}
+
+.page-id-3307 .vimIframeResponsive {
+	width: 32vw;
+	height: 18vw;
+	max-width: 100%;
+	max-height: 16rem;
+}
+
+@media screen and (max-width: 991px) {
+	.page-id-3307 .vimIframeResponsive {
+		width: 100%;
+		height: 40vw;
+	}
+}
+
+/* ------------------------------------PODCAST-------------------------------- */
+
+
+.page-id-1416 .widget-text {
+	max-width: 90%;
+}
+
+/* ------------------------------------BSLM2021-------------------------------- */
+
+.postid-3431 table {
+	width: 80%;
+	font-size: 1.2rem;
+	margin-left: 10%;
+}
+
+.postid-3431 .rowline {
+	border-bottom: 1px solid #363532;
+
+}
+
+.postid-3431 .columnline {
+	border-right: 1px solid black;
+
+}
+
+@media screen and (max-width: 991px) {
+	.postid-3431 table {
+		width: 100%;
+		margin-left: 0;
+	}
+
+}
+
+.postid-3431 .widget-text {
+	max-width: 90%;
+}
+
+.postid-3431 .container {
+	max-width: 1500px;
+}
+
+.postid-3431 .section-50-50 .container {
+	max-width: 1330px;
+}
+
+
+
+
+/* ---------------------------Lifestyle Medicine in Clinical Practice-------------------------------------------- */
+
+.postid-3489 .widget-text {
+	max-width: 90%;
+}
+
+/* ----------------------------------------The Future of Healthcare is Lifestyle Medicine------------------------ */
+
+
+.postid-1623 .widget-text {
+	max-width: 90%;
+}
+
+
+/* -----------------------------------------------2021 Call For Abstracts-------------------------------------------------- */
+
+.page-id-4144 .widget-text {
+	max-width: 100%;
+}
+
+
+.page-id-4144 .heading-1 {
+	display: none;
+}
+
+
+/* -----------------------------------------------LEARNING ACADEMY-------------------------------------------------- */
+
+.page-id-4436 .heading-1 {
+	display: none;
+}
+
+br {
+	display: none;
+}
+
+.page-id-4436 .widget-text {
+	max-width: 100%;
+}
+
+@media screen and (max-width: 1199px) {
+	.page-id-4436 .widget-text {
+		max-width: 80%;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.page-id-4436 .widget-text {
+		max-width: 95%;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.page-id-4436 .widget-text {
+		max-width: 80%;
+	}
+}
+
+.page-id-4436 .header-panel-slider__item {
+	min-height: 300px;
+}
+
+.page-id-4436 .header-panel-slider__item::before {
+	background-image: none;
+}
+
+.page-id-4436 .section-page {
+	padding: 0;
+}
+
+/* -----------------------------------------------FREE WEBINARS-------------------------------------------------- */
+
+.postid-4759 .widget-text {
+	max-width: 100%;
+}
+
+.postid-4759 .heading-1 {
+	display: none;
+}
+
+.postid-4759 .webinarSchedule b {
+	color: #52c7e7;
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+
+.postid-4759 .introVideos iframe {
+	width: 100%;
+	height: 250px
+}
+
+.postid-4759 .section-post__excerpt {
+	display: none;
+}
+
+.postid-4759 .section-post__title {
+	display: none;
+}
+
+/* -----------------------------------------------IBLM BSLM CERT EVENT-------------------------------------------------- */
+
+.postid-4793 .section-post__excerpt {
+	display: none;
+}
+
+.postid-4793 .imagecrop {
+	overflow: hidden;
+	width: 100%;
+	height: 30rem;
+	margin-bottom: 50px;
+}
+
+/* -----------------------------------------------ALIGNED ORGS PAGE-------------------------------------------------- */
+
+.page-id-2505 .widget-text {
+	max-width: 100%;
+}
+
+/* -----------------------------------------------ALIGNED ORGS PAGE-------------------------------------------------- */
+
+.page-id-2505 .widget-text {
+	max-width: 100%;
+}
+
+/* -----------------------------------------------NEW PODCAST PAGE-------------------------------------------------- */
+
+.page-id-4901 .widget-text {
+	max-width: 90%;
+}
+
+.page-id-4901 .heading-1 {
+	display: none;
+}
+
+.page-id-4901 .titleBanner {
+	width: 100%;
+	margin-top: -125px;
+}
+
+@media screen and (max-width: 768px) {
+	.page-id-4901 .titleBanner {
+		margin-top: -75px;
+	}
+}
+
+.page-id-4901 .externalLinkIcons {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+	align-content: space-evenly;
+}
+
+.page-id-4901 .externalLinkIcons br {
+	display: none;
+}
+
+.page-id-4901 .externalLinkIcons img {
+	height: 60px;
+	width: auto;
+}
+
+.page-id-4901 .podcastImgs img {
+	box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+}
+
+.page-id-4901 .podcastImgs img:hover {
+	box-shadow: 1px 9px 13px 1px rgba(0, 0, 0, 0.2);
+	margin: 0 0.5% 0 0.5%;
+}
+
+
+
+
+/* --------------------------------------------------VIDEO RESOURCE PAGE------------------------------------------------ */
+
+.page-id-5218 .widget-text {
+	max-width: 100%;
+}
+
+/* --------------------------------------------------TEST PAGE------------------------------------------------ */
+.page-id-5545 .widget-text {
+	max-width: 100%;
+}
+
+.page-id-5545 .container {
+	max-width: 1500px;
+}
+
+/* --------------------------------------------------NEW VGC RESOURCES PAGE------------------------------------------------ */
+.page-id-5717 .widget-text {
+	max-width: 100%;
+}
+
+.page-id-5717 iframe #player {
+	max-width: none;
+}
+
+/*------------------------------------------BSLM 2021 SPONSOR PAGE----------------------------------------------------*/
+.page-id-6720 .sponsorWrapper {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.page-id-6720 .mainSponsor {
+	width: 70%;
+}
+
+.page-id-6720 .tlcfLogo {
+	width: 65%;
+}
+
+.page-id-6720 .bimunoLogo {
+	width: 40%;
+}
+
+.page-id-6720 .precisionBioticsLogo {
+	width: 40%;
+}
+
+.page-id-6720 .sponsor {
+	margin: 30px;
+}
+
+/*-----------------------------------------REFLECTING ON BSLM 2021----------------------------------------------------*/
+
+
+.postid-6984 .section-post__header {
+	display: none;
+}
+
+/*------------------------------------------BSLM 2021 PHOTO WALL----------------------------------------------------*/
+
+.page-id-7156 .widget-text {
+	max-width: 100%;
+}
+
+
+/*------------------------------------------WHAT IS LIFESTYLE MEDICINE----------------------------------------------------*/
+
+.page-id-500 .widget-text {
+	max-width: 85%;
+}
+
+
+.page-id-500 .PoLM_wrapper {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.page-id-500 .PoLM {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+	align-items: center;
+	width: 49%;
+	text-align: center;
+	padding: 25px;
+	margin: 0 0.5% 0.5% 0.5%;
+}
+
+@media screen and (max-width: 775px) {
+	.page-id-500 .PoLM {
+		width: 100%;
+	}
+}
+
+.page-id-500 .PoLM .blue {
+	color: #00b0f0;
+}
+
+.page-id-500 .PoLM .green {
+	color: #92d050;
+}
+
+.page-id-500 .PoLM b {
+	margin: 10px 0 20px 0;
+	font-size: 18px;
+}
+
+/*------------------------------------------IBLM CERTIFICATION PAGE----------------------------------------------------*/
+
+.page-id-2756 #block_1 {
+	background-color: #f6f6f6 !important;
+}
+
+/*------------------------------------------MEMBER RESOURCES PAGE----------------------------------------------------*/
+
+.page-id-5170 .widget-text {
+	max-width: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+	.page-id-5170 .widget-text {
+		width: 80%;
+	}
+}
+
+.page-id-5170 .resourceClassLink {
+	text-decoration: none !important;
+}
+
+.page-id-5170 .resourceCard img {
+	object-fit: cover;
+}
+
+/*------------------------------------------NEWS LETTERS PAGE----------------------------------------------------*/
+
+.page-id-5472 .newsletters a {
+	display: inline-block;
+	margin: 20px 30px;
+}
+
+.page-id-5472 .newsletters {
+	font-size: 1.4rem;
+}
+
+
+/*------------------------------------------DIPLOMA RESOURCES----------------------------------------------------*/
+
+.page-id-5237 .widget-text {
+	max-width: 100%;
+}
+
+/*------------------------------------------JOIN PAGE----------------------------------------------------*/
+
+.page-id-8089 .widget-text {
+	max-width: 85%;
+}
+
+/*------------------------------------------FUTURE HEALTH PROFESSIONALS PAGE----------------------------------------------------*/
+
+.page-id-8254 .widget-text {
+	max-width: 100%;
+}
+
+.page-id-8254 .container {
+	max-width: 1500px;
+}
+
+.page-id-8254 .socLogo {
+	margin: 20px 0;
+}
+
+/*------------------------------------------ORGANISATIONAL MEMBERS PAGE----------------------------------------------------*/
+
+.page-id-8475 .widget-text {
+	max-width: 100%;
+}
+
+.page-id-8475 .container {
+	max-width: 1500px;
+}
+
+.page-id-8475 .socLogo {
+	margin: 20px 0;
+}
+
+.page-id-8475 table {
+	max-width: 80%;
+	margin: auto;
+}
+
+.page-id-8475 tr {
+	text-align: center;
+	height: 35px;
+	/* border-top: 1px solid #e3e3e3;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.05); */
+}
+
+.page-id-8475 .tableHeadings th {
+	font-weight: 600;
+}
+
+.page-id-8475 th {
+	font-weight: 500;
+	padding: 3px;
+}
+
+.page-id-8475 .tableHeadings {
+	border: none;
+}
+
+/*------------------------------------------BSLM2022 EVENT PAGE----------------------------------------------------*/
+
+.postid-8616 .widget-text {
+	max-width: 100%;
+}
+
+.postid-8616 #block_1 .container {
+	max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+	.postid-8616 .heroBanner{
+		margin-top: -50px;
+	}
+}
+
+.postid-8616 table {
+	width: 80%;
+	font-size: 1.2rem;
+	margin-left: 10%;
+}
+
+.postid-8616 td {
+	height: 50px;
+}
+
+.postid-8616 .rowline {
+	border-bottom: 1px solid #363532;
+
+}
+
+.postid-8616 .columnline {
+	border-right: 1px solid black;
+
+}
+
+@media screen and (max-width: 991px) {
+	.postid-8616 table {
+		width: 100%;
+		margin-left: 0;
+	}
+
+}
+
+@media screen and (max-width: 500px) {
+	.postid-8616 table {
+		font-size: 15px;
+	}
+
+}
+
+@media screen and (max-width: 400px) {
+	.postid-8616 table {
+		font-size: 10px;
+	}
+
+}
+
+.postid-8616 .section-post__header {
+	display: none;
+}
+
+.postid-8616 .conferenceVideo {
+	max-height: 500px;
+	height: 40vw;
+}
+
+/*------------------------------------------CAREERS AND INITIATIVES PAGE----------------------------------------------------*/
+
+
+.page-id-8766 .widget-text {
+	max-width: 90%;
+}
+
+.page-id-8766 .storyTitle {
+	font-size: 28px;
+	font-weight: 600;
+}
+
+.page-id-8766 .storyTypeTag {
+	font-size: 15px;
+	color: white;
+	margin-left: 10px;
+	padding: 1px 2px;
+	vertical-align: middle;
+}
+
+.page-id-8766 .storyTypeTag.initiative {
+	background-color: #7aa3e3;
+}
+
+.page-id-8766 .storyTypeTag.career {
+	background-color: #32c11e;
+}
+
+
+.page-id-8766 .storyMeta {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	width: 85%;
+}
+
+.page-id-8766 .storyMeta i {
+	margin-right: 5px;
+}
+
+.page-id-8766 .storyPicWrapper {
+	display: flex;
+	align-items: center;
+}
+
+.page-id-8766 .storyPicWrapper img{
+	min-height: 80%;
+	object-fit: cover;
+	margin: auto;
+	max-height: 90vw;
+}
+
+@media screen and (max-width: 575px) {
+	.page-id-8766 .story {
+		text-align: center;
+	}
+
+	.page-id-8766 .storyTitle {
+		margin-top: 20px;
+	}
+}
+
+
+/*------------------------------------------HARMFUL SUBSTANCES PAGE----------------------------------------------------*/
+
+.page-id-8871 .widget-text {
+	max-width: 90%;
+}
+
+.page-id-8871 .heading-1 {
+	display: none;
+}
+
+/*------------------------------------------MENTAL HEALTH PAGE----------------------------------------------------*/
+
+.page-id-8883 .widget-text {
+	max-width: 90%;
+}
+
+.page-id-8883 .heading-1 {
+	display: none;
+}
+
+/*------------------------------------------HEALTHY EATING PAGE----------------------------------------------------*/
+
+.page-id-8889 .widget-text {
+	max-width: 90%;
+}
+
+.page-id-8889 .heading-1 {
+	display: none;
+}
+
+/*------------------------------------------HEALTHY RELATIONSHIPS PAGE----------------------------------------------------*/
+
+.page-id-8897 .widget-text {
+	max-width: 90%;
+}
+
+.page-id-8897 .heading-1 {
+	display: none;
+}
+
+/*------------------------------------------PHYSICAL ACTIVITY PAGE----------------------------------------------------*/
+
+.page-id-8902 .widget-text {
+	max-width: 90%;
+}
+
+.page-id-8902 .heading-1 {
+	display: none;
+}
+
+/*------------------------------------------SLEEP PAGE----------------------------------------------------*/
+
+.page-id-8909 .widget-text {
+	max-width: 90%;
+}
+
+.page-id-8909 .heading-1 {
+	display: none;
+}
+
+
+/*------------------------------------------PARTNER COURSES PAGE----------------------------------------------------*/
+
+.page-id-9442 .widget-text {
+	max-width: 100%;
+}
+
+.page-id-9442 .courseListing {
+	margin-bottom: 100px;
+}
+
